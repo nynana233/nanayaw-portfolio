@@ -24,40 +24,32 @@
               >
                 <ul class="flex w-44 justify-between">
                   <li>
-                    <a href="/" class="language-logo">
-                      <img
-                        src="@/assets/svg/kotlin_logo.svg"
-                        alt="kotlin logo"
-                        class="cursor-pointer w-8 h-8 object-contain"
-                      />
-                    </a>
+                    <img
+                      src="@/assets/svg/kotlin_logo.svg"
+                      alt="kotlin logo"
+                      class="cursor-pointer w-8 h-8 object-contain"
+                    />
                   </li>
                   <li>
-                    <a href="/" class="language-logo">
-                      <img
-                        src="@/assets/svg/swift_logo.svg"
-                        alt="swift logo"
-                        class="cursor-pointer w-8 h-8 object-contain"
-                      />
-                    </a>
+                    <img
+                      src="@/assets/svg/swift_logo.svg"
+                      alt="swift logo"
+                      class="cursor-pointer w-8 h-8 object-contain"
+                    />
                   </li>
                   <li>
-                    <a href="/" class="language-logo">
-                      <img
-                        src="@/assets/svg/scala_logo.svg"
-                        alt="scala logo"
-                        class="cursor-pointer w-8 h-8 object-contain"
-                      />
-                    </a>
+                    <img
+                      src="@/assets/svg/scala_logo.svg"
+                      alt="scala logo"
+                      class="cursor-pointer w-8 h-8 object-contain"
+                    />
                   </li>
                   <li>
-                    <a href="/" class="language-logo">
-                      <img
-                        src="@/assets/svg/python_logo.svg"
-                        alt="python logo"
-                        class="cursor-pointer w-8 h-8 object-contain"
-                      />
-                    </a>
+                    <img
+                      src="@/assets/svg/python_logo.svg"
+                      alt="python logo"
+                      class="cursor-pointer w-8 h-8 object-contain"
+                    />
                   </li>
                 </ul>
                 <div class="h-8 flex">
@@ -103,9 +95,6 @@ import Vue from 'vue'
 import SocialMedia from '~/components/SocialMedia.vue'
 export default Vue.extend({
   components: { SocialMedia },
-  data() {
-    return {}
-  },
 })
 </script>
 
