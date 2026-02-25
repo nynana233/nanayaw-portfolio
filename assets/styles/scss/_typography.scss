@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
 @import './_breakpoints';
 
 @font-face {
@@ -71,7 +71,8 @@ $gordita-font: 'Gordita';
 }
 
 h1 {
-    font-family: $sora-font;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
     font-size: calc(5.5rem * var(--text-multiplier));
     line-height: calc(6rem * var(--heading-line-height));
 }
