@@ -4,8 +4,8 @@
       <div class="flex justify-center relative">
         <div class="content">
           <img
-            src="@/assets/svg/maclean_logo.svg"
-            alt="Maclean Logo"
+            src="@/assets/svg/nanayaw_logo.svg"
+            alt="Nana Yaw Logo"
             class="h-5 mb-8"
           />
           <vue-typed-js
