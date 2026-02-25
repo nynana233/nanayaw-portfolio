@@ -88,9 +88,9 @@ sw.*
 
 # Proprietary/commercial font files
 assets/fonts/*.otf
-assets/fonts/*.woff
 assets/fonts/*.woff2
 assets/fonts/*.ttf
+!assets/fonts/Monaco.woff
 
 # npm lock file (project uses yarn)
 package-lock.json
