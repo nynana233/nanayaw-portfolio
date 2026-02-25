@@ -10,7 +10,7 @@
           />
           <vue-typed-js
             :strings="[
-              '<h1>Hi I\'m <span><a href >Nana Yaw<a/></span>, a software engineer.</h1>',
+              '<h1>Hi, I\'m <span><a href >Nana Yaw<a/></span><br/>a software engineer.</h1>',
             ]"
             :content-type="'html'"
           >
@@ -72,7 +72,7 @@
           <hr class="mt-14" />
 
           <div class="flex mt-12">
-            <a href="/pdf/nana-yaw-resume.pdf" download="nana-yaw-resume.pdf">
+            <a href="/pdf/nana-yaw-koranteng-resume.pdf" download="nana-yaw-koranteng-resume.pdf">
               <button
                 class="btn-outline bg-black-pearl border-white border-2 text-body-bold text-white px-6 py-4"
               >
@@ -80,7 +80,7 @@
               </button>
             </a>
             <a
-              href="https://blog.josephmaclean.dev/"
+              href="https://dev.to/nynana233"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -127,6 +127,9 @@ main {
 }
 
 h1.typing {
+  min-height: 6rem;
+  white-space: nowrap;
+
   span {
     display: inline-block;
     color: #23cb23;
