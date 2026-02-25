@@ -22,7 +22,7 @@
           </button>
         </a>
         <a
-          href="nana-yaw-koranteng-resume.pdf"
+          href="/pdf/nana-yaw-koranteng-resume.pdf"
           download="nana-yaw-koranteng-resume.pdf"
         >
           <button
@@ -125,30 +125,9 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import gsap, { Power2 } from 'gsap'
 
 export default Vue.extend({
   transition: 'intro',
-  methods: {
-    paragraphHovered(): void {
-      const coverPhoto = this.$refs.projectCover as Element
-      gsap.to(coverPhoto, {
-        duration: 0.7,
-        y: -30,
-        autoAlpha: 1,
-        ease: Power2.easeOut,
-      })
-    },
-
-    hoverRemoved(): void {
-      const coverPhoto = this.$refs.projectCover as Element
-      gsap.to(coverPhoto, {
-        duration: 0.5,
-        autoAlpha: 0,
-        y: 30,
-      })
-    },
-  },
 })
 </script>
 
