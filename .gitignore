@@ -86,5 +86,14 @@ sw.*
 # macOS
 .DS_Store
 
+# Proprietary/commercial font files
+assets/fonts/*.otf
+assets/fonts/*.woff
+assets/fonts/*.woff2
+assets/fonts/*.ttf
+
+# npm lock file (project uses yarn)
+package-lock.json
+
 # Vim swap files
 *.swp
