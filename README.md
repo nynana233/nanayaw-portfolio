@@ -1,3 +1,9 @@
+# Nana Yaw — Portfolio
+
+**[nynana233.github.io/nanayaw-portfolio](https://nynana233.github.io/nanayaw-portfolio/)**
+
+Personal portfolio website showcasing software engineering skills in Kotlin, Swift, Scala, and Python.
+
 ## Build Setup
 
 ```bash
