@@ -1,5 +1,3 @@
-# maclean
-
 ## Build Setup
 
 ```bash
