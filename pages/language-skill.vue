@@ -21,7 +21,10 @@
             go to blog
           </button>
         </a>
-        <a href="/pdf/nana-yaw-resume.pdf" download="nana-yaw-resume.pdf">
+        <a
+          href="nana-yaw-koranteng-resume.pdf"
+          download="nana-yaw-koranteng-resume.pdf"
+        >
           <button
             class="btn-outline bg-black-pearl border-white border-2 text-body-bold text-white px-6 py-2"
           >
@@ -50,7 +53,7 @@
           </p>
         </skill-set-tab>
         <skill-set-tab src="swift_logo.svg">
-          <h1 class="text-10xl leading-36 text-white">swift⚡️</h1>
+          <h1 class="text-10xl leading-36 text-white">swift</h1>
           <p class="mt-10 ff-monaco text-white">
             With <span class="text-peach">Swift</span> I build native
             <span class="text-yellow">iOS</span> apps that feel at home on
@@ -59,7 +62,7 @@
             ship elegant, performant experiences — without ever reaching for a
             <span class="text-blue">cross-platform</span> workaround.
           </p>
-          <h4 class="text-white ff-sora text-3xl mt-24">Projects</h4>
+          <!-- <h4 class="text-white ff-sora text-3xl mt-24">Projects</h4>
           <div class="relative">
             <div class="flex mt-8">
               <p class="ff-sora text-white mr-4">myCrd</p>
@@ -85,7 +88,7 @@
               alt=""
               srcset=""
             />
-          </div>
+          </div> -->
         </skill-set-tab>
         <skill-set-tab src="scala_logo.svg">
           <h1 class="text-10xl leading-36 text-white">scala</h1>
