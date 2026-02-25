@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="absolute top-0 bottom-0 flex justify-center flex-col -right-1 ml-12"
+    class="fixed top-0 bottom-0 flex justify-center flex-col right-8"
   >
     <div class="social-media h-30 flex flex-col justify-between">
       <a
