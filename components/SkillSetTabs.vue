@@ -3,7 +3,7 @@
     <div class="tabs mb-11">
       <ul class="flex">
         <li v-for="(tab, i) in tabs" :key="i" class="mr-10">
-          <a href="#" @click="selectTab(tab)">
+          <a href="#" @click.prevent="selectTab(tab)">
             <div class="img-box" :class="{ 'is-active': tab.isActive }">
               <img :src="require(`@/assets/svg/${tab.src}`)" alt="" srcset="" />
             </div>
