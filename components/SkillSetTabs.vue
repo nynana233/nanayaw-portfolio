@@ -44,6 +44,11 @@ export default Vue.extend({
   color: #23cb23;
   position: relative;
   cursor: pointer;
+  img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
   &::after {
     position: absolute;
     bottom: -12px;
