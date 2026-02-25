@@ -26,7 +26,6 @@
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
-    "fibers": "^5.0.0",
     "gsap": "^3.6.1",
     "nuxt": "^2.15.3",
     "sass-loader": "10",
@@ -64,5 +63,10 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "ts-jest": "^26.5.4",
     "vue-jest": "^3.0.4"
+  },
+  "resolutions": {
+    "@nuxt/postcss8/postcss": "8.4.31",
+    "@nuxt/postcss8/css-loader/postcss": "8.4.31",
+    "@nuxt/postcss8/postcss-loader/postcss": "8.4.31"
   }
 }
