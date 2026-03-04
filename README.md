@@ -2,7 +2,7 @@
 
 **[nynana233.github.io/nanayaw-portfolio](https://nynana233.github.io/nanayaw-portfolio/)**
 
-Personal portfolio website showcasing software engineering skills in Kotlin, Swift, Scala, and Python.
+Personal portfolio website showcasing software engineering skills
 
 ## Build Setup
 
