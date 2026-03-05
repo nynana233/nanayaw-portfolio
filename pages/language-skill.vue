@@ -22,7 +22,7 @@
           </button>
         </a>
         <a
-          href="/pdf/nana-yaw-koranteng-resume.pdf"
+          :href="`${$router.options.base}pdf/nana-yaw-koranteng-resume.pdf`"
           download="nana-yaw-koranteng-resume.pdf"
         >
           <button
