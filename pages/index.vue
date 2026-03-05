@@ -64,7 +64,10 @@
           <hr class="mt-14" />
 
           <div class="flex mt-12">
-            <a href="/pdf/nana-yaw-koranteng-resume.pdf" download="nana-yaw-koranteng-resume.pdf">
+            <a
+              href="/pdf/nana-yaw-koranteng-resume.pdf"
+              download="nana-yaw-koranteng-resume.pdf"
+            >
               <button
                 class="btn-outline bg-black-pearl border-white border-2 text-body-bold text-white px-6 py-4"
               >
